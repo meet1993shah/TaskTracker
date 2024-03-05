@@ -4,7 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 DATABASE = 'database.db'
-s
+
 def get_db():
 	db = getattr(g, '_database', None)
 	if db is None:
