@@ -10,6 +10,7 @@ body, html {
 	left: 0;
 	gap: 5px;
 	margin-top: 10px;
+	margin-left: 20px;
 }
 
 #search-container {
@@ -51,6 +52,14 @@ body, html {
 	position: relative;
 	flex: 0 0 auto;
 	mix-blend-mode: darken;
+}
+
+.delete-icon {
+	cursor: pointer;
+}
+
+.edit-icon {
+	cursor: pointer;
 }
 
 .note-content {
