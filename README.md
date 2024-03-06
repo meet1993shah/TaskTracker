@@ -36,6 +36,8 @@ The Task Tracker App is a simple yet powerful tool designed to help users manage
 
 * **HTML & CSS:** Used for structuring and styling the web application's interface, ensuring a responsive and intuitive design.
 
+* **SQLite:** Used for backend Relational Database.
+
 ## Getting Started
 
 * To run the Task Tracker App on your local machine, follow these steps:
@@ -45,22 +47,22 @@ The Task Tracker App is a simple yet powerful tool designed to help users manage
 git clone https://github.com/meet1993shah/TaskTracker.git
 ```
 
-1. **Set Up a Virtual Environment:** Navigate to the project directory and set up a Python virtual environment.
+2. **Set Up a Virtual Environment:** Navigate to the project directory and set up a Python virtual environment.
 ```bash
 cd TaskTracker
 python3 -m venv venv
 ```
 
-1. **Activate the Virtual Environment:**
+3. **Activate the Virtual Environment:**
 	* On Windows: `venv\Scripts\activate`
 	* On macOS/Linux: `source venv/bin/activate`
 
-1. **Install Dependencies:** Install the required Python packages
+4. **Install Dependencies:** Install the required Python packages
 ```bash
 pip3 install -r requirements.txt
 ```
 
-1. **Run the Application:** Start the Flask application
+5. **Run the Application:** Start the Flask application
 ```bash
 flask run
 ```
@@ -69,7 +71,7 @@ OR
 python3 app.py
 ```
 
-1. **Access the App:** Open your web browser and navigate to `http:127.0.0.1:5000/` to start using the Task Tracker App.
+6. **Access the App:** Open your web browser and navigate to `http:127.0.0.1:5000/` to start using the Task Tracker App.
 
 ## Contributing
 
